@@ -28,3 +28,7 @@ function testPromise() {
 
     console.log(thisPromiseCount + ': Promise made - Sync code termination')
 }
+
+testPromise();
+testPromise();
+testPromise();
