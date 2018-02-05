@@ -12,7 +12,7 @@ function testPromise() {
     console.log(thisPromiseCount + ': Started - Sync code started');
 
     let p1 = new Promise(function(resolve,reject) {
-        console.log(thisPromiseCount + 'Promise started - Async code started');
+        console.log(thisPromiseCount + ': Promise started - Async code started');
         // Example use of setTimeout - in this case to provide asynchronous responses
         window.setTimeout(
             function() {
